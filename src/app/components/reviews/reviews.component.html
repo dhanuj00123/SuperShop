@@ -1,0 +1,26 @@
+<section class="py-1">
+    <div class="container px-4 px-lg-5 mt-5">
+      <h2 class="fw-bolder mb-4 ">Add Review</h2>
+      <form class="d-flex justify-content-end flex-wrap" [formGroup]="comment">
+        <textarea class="form-control " formControlName="comtext"type="text" > </textarea>
+      <button (click)="addcom()" class="btn btn-dark text-white my-2 py-1" type="submit">Comment</button>
+      </form>
+      <h2 class="fw-bolder mb-4">Reviews</h2>
+      <div
+        *ngFor="let rev of review; let i = index"
+        class="px-2 py-2 my-4 card shadow"
+      >
+        <h5><fa-icon class="px-2" [icon]="Iuser"></fa-icon>Anonymous</h5>
+        <div appTooltip="Rating: {{rev.rstar}}" class="mx-4">
+          <ngx-stars
+            [readonly]="true"
+            [color]="'#FDDA0D'"
+            [maxStars]="5"
+            [initialStars]="rev.rstar"
+           
+          ></ngx-stars>
+        </div>
+        <p class="lead mx-4">{{ rev.review }}</p>
+      </div>
+    </div>
+  </section>

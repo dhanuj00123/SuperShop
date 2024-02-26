@@ -1,0 +1,83 @@
+ <section class="py-1 bg-light">
+    <div class="container px-4 px-lg-5 mt-5">
+      <!-- <h2 class="fw-bolder mb-4">Related products</h2> -->
+      <div class="container px-3 px-lg-4 mt-2">
+        <div
+          class="row gx-4 gx-lg-3 row-cols-3 row-cols-md-4 row-cols-xl-4 justify-content-center"
+        >
+          <div
+            *ngFor="
+              let prod of allproducts
+                | filterpipe : cat : 'category'" class="col col-xl-3 h-50 d-flex text-center flex-column align-center">
+              <div
+                class="card shadow w-100 rounded h-100 mb-2"
+                (click)="redirect(prod.id)"
+              >
+                <!-- <div class="badge bg-dark text-white position-absolute " *ngIf="(prod.price -
+                                  prod.discountedprice)/prod.price == 58" style="top: 0.5rem; right: 0.5rem">Sale</div> -->
+                <!-- <div class="text-white badge bg-secondary  position-absolute " style="top: 14.6001rem; right: 0.6rem"><fa-icon [icon]="Iright"></fa-icon></div>
+                          <div  class="  text-white badge bg-secondary  position-absolute " style="top: 14.6001rem; right: 20.9rem"><fa-icon [icon]="Ileft"></fa-icon></div> -->
+                <!-- Product image-->
+                <div>
+                  <img appTooltip="{{prod.title}}, {{prod.discountedprice |currency:'INR' }}"
+                    class="card-img-top"
+                    [src]="prod.image.img1"
+                    style="height: 200px; width: auto"
+                  />
+  
+                  <!-- Product details-->
+                </div>
+                <div class="card-body p-3">
+                  <div class="text-center">
+                    <!-- Product name-->
+                    <p id="title" class="fw-bolder">{{ prod.title }}</p>
+                    <div>
+                      <s
+                        ><small class="text-muted px-1">{{
+                          prod.price | currency : "INR"
+                        }}</small></s
+                      >
+                      <span id="price">{{
+                        prod.discountedprice | currency : "INR"
+                      }}</span>
+                    </div>
+                    <small class="text-danger"
+                      >({{
+                        (prod.price - prod.discountedprice) / prod.price | percent
+                      }}
+                      off)</small
+                    >
+                    <div appTooltip="Rating: {{prod.ratings}}" class="d-flex my-0 py-0 justify-content-center">
+                      <ngx-stars
+                        [readonly]="true"
+                        [color]="'#FDDA0D'"
+                        [maxStars]="5"
+                        [initialStars]="prod.ratings"
+                      ></ngx-stars>
+                    </div>
+                  </div>
+                  <div appTooltip="{{prod.description}}">
+                    <p
+                      id="desc"
+                      ngxTruncateText
+                      number="30"
+                      more="Read more"
+                      less="Less"
+                    >
+                      {{ prod.description }}
+                    </p>
+                  </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a class="btn btn-dark mt-auto" (click)="redirect(prod.id)">Buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    <!-- </div>
+  </section> -->

@@ -1,0 +1,184 @@
+<app-header></app-header>
+
+<div class="container-sm">
+
+    <div class="row justify-content-center py-4">
+        <div class="col-md-6  shadow rounded bg-light pb-3">
+            <h1 class="text-center pt-3 "> SIGN UP </h1>
+
+            <form [formGroup]="register" (ngSubmit)="submitform()">
+                <div class="form-row d-flex">
+                    <div class="form-group px-2 col-sm-6">
+                        <label>Name </label>
+
+                        <input type="text" class="form-control" formControlName="name" placeholder="Name" />
+                        <small *ngIf="form.name.errors?.required && name.touched" class="help-block"
+                            class="text-danger">Name
+                            Required</small>
+                        <small *ngIf=" form.name.errors?.maxlength " class="help-block"
+                            class="text-danger">Name must be less than 12 characters</small>
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Email</label>
+                        <input type="email" class="form-control" formControlName="email" placeholder="Email" />
+                        <small *ngIf="form.email.errors?.required && form.email.touched" class="text-danger">Email is Required</small>
+                        <small *ngIf="form.email.invalid && form.email.dirty" class="text-danger">Invalid Email</small>
+                    </div>
+                </div>
+                <div class="form-row d-flex">
+                    <div class="form-group px-2 col-sm-6">
+                        <label>Password</label>
+
+                        <!-- <button (click)="showPass()" class="badge rounded-pill badge-light py-0 ms-2 text-dark cursor-pointer ">show</button> -->
+                        <input [type]="pass" class="form-control" formControlName="password" placeholder="Password" />
+
+                        <small *ngIf="form.password.errors?.required && form.password.touched"
+                            class="text-danger">Password is Required</small>
+                            <small *ngIf="form.password.errors?.minlength && form.password.dirty"
+                            class="text-danger">Password must be grater than 6 characters</small>
+                    </div>
+                    <div class="col-sm-5">
+                        <label>Confirm Password</label>
+                        <input [type]="pass" class="form-control" formControlName="confirmpassword"
+                            placeholder="Confirm Password" />
+                        <small
+                            *ngIf=" form.confirmpassword.errors?.required && form.confirmpassword.touched"
+                            class="text-danger">Confirm Password required</small>
+
+                        <small *ngIf="form.confirmpassword.errors?.mustMatch" class="text-danger">Password
+                            Missmatch</small>
+                    </div>
+                    <div class="col-sm-1 d-flex  justify-content-center align-items-sm-center"
+                        style="width: 50px; height: 50px; margin-top: 15px;">
+                        <fa-icon (click)="showPass()" *ngIf="!show" [icon]="Ieye"></fa-icon>
+                        <fa-icon (click)="showPass()" *ngIf="show" [icon]="Ieyeslash"></fa-icon>
+                    </div>
+                </div>
+                <div class=" mb-2 px-2 pt-1">
+                    <label>Gender</label>
+                    <div class="px-1">
+                        <input type="radio" value="Male" formControlName="gender" />
+                        <span class="px-1">Male</span>
+
+                        <input type="radio" value="Female" formControlName="gender" />
+                        <span class="px-1">Female</span>
+
+                        <input type="radio" value="Other" formControlName="gender" />
+                        <span class="px-1">Other</span>
+                    </div>
+                    <small *ngIf="form.gender.errors?.required && form.gender.touched" class="text-danger">Gender is Required</small>
+                </div>
+
+
+                <div class="form-row d-flex">
+                    <div class="form-group px-2 col-sm-6">
+                        <label>Date of birth</label>
+                        <input type="date" class="form-control" formControlName="date" />
+                        <small *ngIf="form.date.errors?.required && form.date.touched" class="text-danger">Date is Required</small>
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Occupation</label>
+                        <select type="text" placeholder="Select Occupation" class="form-control"
+                            formControlName="occupation">
+                            <!-- <span [disabled] >Select occupation</span> -->
+                            <option *ngFor="let occu of occupations">{{ occu }}</option>
+                        </select>
+                        <small *ngIf="form.occupation.errors?.required && form.occupation.touched" class="text-danger">Choose
+                            Occupation</small>
+                    </div>
+                </div>
+                <div class="px-2 ">
+                    <label>Description</label>
+                    <textarea type="text-area" class="form-control" formControlName="description"
+                        placeholder="Enter Description"></textarea>
+                    <small *ngIf="form.description.errors?.required && form.description.touched" class="text-danger">Description is Required</small>
+                    <small *ngIf="form.description.errors?.maxlength && form.description.touched" class="text-danger">Description must be less than 80 characters</small>
+                </div>
+
+                <!-- <div formArrayName="education" >
+                    <button type="button" class="btn  btn-dark centred my-2" (click)="addEducation()"><fa-icon [icon]="Iadd"></fa-icon> Add
+                        Education</button>
+                        <ng-container *ngFor="let edu of educationcontrols ;let i =index">
+                            <div [formGroupName]="insidediv">
+                            <input  class="form-control  mx-1 my-1" type="text" placeholder="School/college Name"
+                                [formControlName]="colName">
+                            <select type="text" placeholder="Select Degree" class="form-control mx-1 my-1"
+                                formControlName="degreeName">
+                                <option>10th</option>
+                                <option>12th</option>
+                                <option>Bachelor's degree</option>
+                                <option>Masters's degree</option>
+                            </select>
+                            <input  class="form-control my-1 mx-1" type="text" placeholder="Grade"
+                                [formControlName]="grade">
+                            </div>
+                        </ng-container>
+                </div> -->
+                <div class="form-row d-flex">
+                    <div class=" col-sm-4 py-2 px-2">
+                        <label>User image</label>
+                        <input type="file" class="form-control" formControlName="image" aria-label="file example"
+                            required />
+                        <!-- <small *ngIf="image.invalid && image.touched" class="text-danger">Image required </small> -->
+                    </div>
+                    <div class="col-sm-4 py-2 px-2">
+                        <label>12th Education Details</label>
+                        <input type="text" class="form-control" formControlName="education12"
+                            placeholder="Enter Your 12th Eductaion details" />
+                        <small *ngIf="form.education12.errors?.required && form.education12.touched" class="text-danger">
+                            Please Enter the details</small>
+                    </div>
+                    <div class="col-sm-4 py-2 px-2">
+                        <label>Degree Education Details</label>
+                        <input type="text" class="form-control" formControlName="educationdegree"
+                            placeholder="Enter YourDegree Eductaion details" />
+                        <small *ngIf="form.educationdegree.errors?.required && form.educationdegree.touched" class="text-danger">Please
+                            Enter
+                            the details</small>
+                    </div>
+                </div>
+
+                <div class = "px-2"formArrayName="intrests">
+                    <button type="button" class="btn  btn-dark centred my-2" (click)="addintrest()">
+                        <fa-icon [icon]="Iadd"></fa-icon> Add
+                        Intrest
+                    </button>
+                    <ng-container *ngFor="let intrest of intrestcontrols ;let i = index ">
+                        <div class="input-group my-2">
+                            <input class="form-control row  mx-1" type="text" placeholder="Add Intrest"
+                                [formControlName]="i">
+                            
+                                
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-danger" type="button" (click)="removeintrest(i)">
+                                    <fa-icon [icon]="Iremove"></fa-icon>
+                                </button>
+                                <small *ngIf="register.get('intrests')['controls'][i].errors?.required && register.get('intrests').touched "
+                        class="text-danger mx-1">Fill all empty Intrest fields</small>
+                            </div>
+
+                        </div>
+                    </ng-container>
+                    
+                </div>
+
+
+                <div class="py-2 px-2">
+                    <label><input class="checkbox" formControlName="tandc" required type="checkbox" />Accept terms and
+                        conditions</label>
+                    <small *ngIf="form.tandc.errors?.required && form.tandc.touched " class="text-danger mx-2 ">Agree T&C</small>
+                </div>
+                <div class="px-2 d-flex justify-content-start ">
+                    <button class="btn btn-dark btn-sm text-white  ">
+                        submit
+                    </button>
+                    <button class="btn btn-sm text-white btn-dark mx-4 py-2" type="button"
+                        (click)="reset()">Reset</button>
+                </div>
+                <!-- <span> {{register.value|json}}</span> -->
+            </form>
+        </div>
+    </div>
+
+</div>
+<app-footer></app-footer>

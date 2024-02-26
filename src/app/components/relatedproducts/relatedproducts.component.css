@@ -1,0 +1,17 @@
+
+.toggleText{
+    color: gray !important;
+	font-size:12px;
+	font-style: italic;
+}
+#title{
+    font-size: 16px;
+}
+#desc{
+    font-size: 12px;
+}
+#price{
+    font-family: sans-serif;
+    font-size: large;
+    /* font-weight: 600; */
+}

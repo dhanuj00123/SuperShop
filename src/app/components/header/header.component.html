@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container">
+
+        <a [routerLink]="['/']" class="navbar-brand ">
+
+            <img src="../../../assets/images/Logo3.png" height="35" class="mx-2 ">SUPERSHOP
+
+        </a>
+
+    
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <div class="navbar-nav ms-auto mx-4">
+
+                <a  class="nav-item nav-link  mx-3"  routerLink="/products"><fa-icon [icon]="Iproducts" class="mx-2"></fa-icon>Products</a>
+
+                <a [routerLink]="['/cart']" class="nav-item nav-link mx-3"><fa-icon [icon]="Icart" class="mx-2"></fa-icon>Cart<span class="badge bg-dark text-danger  rounded-pill">{{totalItem}}</span></a>
+                
+                <li *ngIf="!isLoggedIn" class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><fa-icon [icon]="Iuser" class="mx-2"></fa-icon>
+                        Account
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        
+                        <a class="dropdown-item"  routerLink="/login">Login</a>
+                        <a class="dropdown-item"  routerLink="/register">Register</a>
+                        <div *ngIf="isLoggedIn" class="dropdown-divider"></div>
+                        
+                    </div>
+                </li>
+
+
+
+                <li *ngIf="isLoggedIn" class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><fa-icon [icon]="Iuser" class="mx-2"></fa-icon>
+                        {{user.name|titlecase}}
+                    </a>
+                    <div  class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <a routerLink="/profile" class="dropdown-item" >Profile</a>
+                        
+                        <div *ngIf="isLoggedIn" class="dropdown-divider"></div>
+                        <a (click)="logout()"  class="dropdown-item">Logout ({{user.name}})</a>
+                    </div>
+                </li>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>

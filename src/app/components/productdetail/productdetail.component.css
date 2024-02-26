@@ -1,0 +1,20 @@
+.toggleText{
+    color: gray !important;
+	font-size:12px;
+	font-style: italic;
+}
+#desc{
+    font-size: 12px;
+}
+.zoom {
+    transition: transform .8s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
+
+

@@ -1,0 +1,642 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Shirt-Men",
+      "price": 1200,
+      "discountedprice": 699,
+      "category": "Shirt",
+      "description": " Slim Fit Soft and Breathable Cotton Fabric, Double pocket with flap and button closure Embroidery detail at chest",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71GJFlHCa4L._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/718MX5xkyvL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/91LT4RhanXL._UY879_.jpg"
+      },
+      "size": "M",
+      "gender": "Male",
+      "ratings": "4",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Perfect fitting and nice fabric at this price. Loved this one"
+        },
+        {
+          "rid": 2,
+          "rstar": "3",
+          "review": "About fitting and material there is no issue. But About colour this is not Olive for sure...thats why I haven't even opened the shirt's packaging"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Shirt | Men",
+      "price": 700,
+      "discountedprice": 399,
+      "category": "Shirt",
+      "description": "Regular Fit Stylish Half sleeve Casual Printed Shirts & Party Wear Casual shirts Disclaimer: Product colour may slightly vary due to photographic lighting sources or your monitor settings",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71BkK4MkLnL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/71MyjnW+AVL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/71dUDlaCzNL._UY879_.jpg"
+      },
+      "size": "M",
+      "gender": "Male",
+      "ratings": "3",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4.5",
+          "review": "Comfortable material, decent quality, great colors. Overall a best buy"
+        },
+        {
+          "rid": 2,
+          "rstar": "2",
+          "review": "This shirt is okay but not good. I didn’t liked it so much because it’s not fitted as I expected"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Casual Trousers | Men",
+      "price": 700,
+      "discountedprice": 699,
+      "category": "Pants",
+      "description": "Fit Type: Regular Flat front Basic 5 Pocket Trouser Scoop PocketZip fly with button closure Front scoop pocket and back welt pocket",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/61YHtYYabpL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/61DahIgt2RL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/81so7nXZxjL._UY879_.jpg"
+      },
+      "size": "S",
+      "gender": "Male",
+      "ratings": "4.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "2",
+          "review": "After one wash , it was completely ruptured . I won’t recommend it ."
+        },
+        {
+          "rid": "2",
+          "rstar": "3",
+          "review": "Ordered this for a formal usage! 1st thing is colour of the product is not as described! It's a light colour which is too pale... The fit is also not as expected.... It seems to be a bell bottom! Not suggestable!"
+        },
+        {
+          "rid": "3",
+          "rstar": "4",
+          "review": "Quality r superb"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Shirt | Men",
+      "price": 579,
+      "discountedprice": 479,
+      "category": "Shirt",
+      "description": "Fit Type: Regular Occasion :- Formal, Office & Business Wear; Fabric :- Cotton Collar Style :- Classic Collar; Pocket Detail :- Patch Pocket On Chest",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/81f+kFsITPL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/91qls4jSIsL._UX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/81k4yYfDReL._UX679_.jpg"
+      },
+      "size": "M",
+      "gender": "Male",
+      "ratings": "4",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Good in that budget. Fits perfectly 👌"
+        },
+        {
+          "rid": "2",
+          "rstar": "5",
+          "review": "Cloth of the shirt is very soft and comfortable."
+        },
+        {
+          "rid": "3",
+          "rstar": "2",
+          "review": "Quality is Bad"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "T-Shirt | Men",
+      "price": 800,
+      "discountedprice": 599,
+      "category": "T-Shirt",
+      "description": " LAMS Graphic Printed Unisex Tshirt for Men and Women| Round Neck T Shirt |Black Panther Marvel Comic |100% Cotton, Black Black Introduce these fitted t shirts for men into your everyday rotation. Our fresh mens shirts feature a buttery soft cotton-poly blend that's breathable, shrink- resistant, and lasts longer than the average cotton t shirt for men",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/31FXCaUSFAL.jpg"
+      },
+      "size": "S",
+      "gender": "Male",
+      "ratings": "2",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "2",
+          "review": "Not so Good in that budget. "
+        },
+        {
+          "rid": "2",
+          "rstar": "1",
+          "review": "Cloth of the shirt is not very comfortable."
+        },
+        {
+          "rid": "3",
+          "rstar": "2",
+          "review": "Quality is Bad"
+        },
+        {
+          "rid": "4",
+          "rstar": "4",
+          "review": "Quality is ok"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Trousers | Womens",
+      "price": 1200,
+      "discountedprice": 499,
+      "category": "Pants",
+      "description": "Fit Type: Straight Type:Women Pant Fabric:Polyester blend Length:Regular Length Closure:Button",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/51jXgsSM6SL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/51nGgZN8u4L._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/51q7bZTlsbL._UY879_.jpg"
+      },
+      "size": "S",
+      "gender": "Female",
+      "ratings": "4.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Same as shown in picture and it's really comfortable."
+        },
+        {
+          "rid": "2",
+          "rstar": "5",
+          "review": "Justtt ....amazinggggg....loved it"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "T-Shirt | Womens",
+      "price": 700,
+      "discountedprice": 349,
+      "category": "T-Shirt",
+      "description": "Fit Type: Regular Fit  Material and quality: 100% Premium bio-washed soft and smooth skin friendly cotton material and well stitched with 100% cotton threads for long lasting use",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/61kao9FI3uS._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/31BRvZ4-WMS._SR38,50_.jpg"
+      },
+      "size": "M",
+      "gender": "Female",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "3",
+          "review": "It's comfortable to wear . But it's not much value for money because of the stitching"
+        },
+        {
+          "rid": "2",
+          "rstar": "4",
+          "review": " Quality febric good.colour is very bright"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Shirt | Womens",
+      "price": 700,
+      "discountedprice": 549,
+      "category": "Shirt",
+      "description": "Fit Type: Regular Fit  Material and quality: 100% Premium bio-washed soft and smooth skin friendly cotton material and well stitched with 100% cotton threads for long lasting use",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71zvFv-ol4L._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/81TKeioBoSL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/71Jc6w4CPhL._UY879_.jpg"
+      },
+      "size": "M",
+      "gender": "Female",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Great fit. Only problem is even after ironing the shirt looks shabby."
+        },
+        {
+          "rid": "2",
+          "rstar": "4.5",
+          "review": " I'm not really sure about the fabric material but it's better than other shirts I've searched on Amazon for the same price. Also, it fits me perfectly so I don't have any problem with it."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "T-Shirt | Men",
+      "price": 400,
+      "discountedprice": 349,
+      "category": "T-Shirt",
+      "description": "Fit Type: Regular Fit  Material and quality: 100% Premium bio-washed soft and smooth skin friendly cotton material and well stitched with 100% cotton threads for long lasting use",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71WmwSot-vL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/71KdxrM2-XL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/81kYrTssfVL._UY879_.jpg"
+      },
+      "size": "XL",
+      "gender": "Male",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Great fit. "
+        },
+        {
+          "rid": "2",
+          "rstar": "4.5",
+          "review": " It'sit fits me perfectly so I don't have any problem with it."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Kurta | Womens",
+      "price": 800,
+      "discountedprice": 659,
+      "category": "Kurta",
+      "description": "Fit Type: Regular Fit  Material and quality: 100% Premium bio-washed soft and smooth skin friendly cotton material and well stitched with 100% cotton threads for long lasting use",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71C+eITKkmL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/71m7hZnSSzL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/81S6RuOqZuL._UY879_.jpg"
+      },
+      "size": "XL",
+      "gender": "Female",
+      "ratings": "0.6",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Good product "
+        },
+        {
+          "rid": "2",
+          "rstar": "2",
+          "review": " not as expected"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Leather Formal Shoes",
+      "price": 2665,
+      "discountedprice": 2536,
+      "category": "Shoes",
+      "description": "Sole: Leather Closure: Lace-Up Heel Height: 1 inches Shoe Width: Medium Material Type: Leather Toe Style: Closed Toe",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71DOsftju3L._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/81rtOWHVwpL._UX695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/817Zcoia+ML._UX695_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/81PF4CQqlpL._UX695_.jpg"
+      },
+      "size": "8",
+      "gender": "Male",
+      "ratings": "4",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Comfortable "
+        },
+        {
+          "rid": "2",
+          "rstar": "4.5",
+          "review": " Genuine leather and build quality is very good..."
+        },
+        {
+          "rid": "3",
+          "rstar": "1.5",
+          "review": "Worst quality. Brown shoe colour started fading from 2nd day of usage"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Adidas Running Shoes",
+      "price": 2499,
+      "discountedprice": 1952,
+      "category": "Shoes",
+      "description": "Sole: Ethylene Vinyl Acetate Closure: Lace-Up Fit Type: Regular Shoe Width: Medium Upper Material: Mesh; Outer Sole: Rubber",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/61lGBnCT8sL._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/61kaEvDrCIL._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/616a60n4giL._UY695_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/51-zPb60wML._UY695_.jpg"
+      },
+      "size": "9",
+      "gender": "Male",
+      "ratings": "4.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "Comfortable "
+        },
+        {
+          "rid": "2",
+          "rstar": "5",
+          "review": " Very nice products in such range price thanks Supershop for This lovey product .As I expected it is so nice"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Leather Formal Shoes",
+      "price": 4199,
+      "discountedprice": 2099,
+      "category": "Shoes",
+      "description": "Sole: Thermo plastic Elastomers Closure: Lace-Up Fit Type: Regular Shoes are made from very high-quality material, we never compromise with quality, are fully dedicated to providing the highest quality product.",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/617U4qBe18L._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/51yqF-EWrSL._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/61rilzuFG3L._UY695_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/61w0bpYhqDL._UY695_.jpg"
+      },
+      "size": "9",
+      "gender": "Male",
+      "ratings": "4",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "3",
+          "review": "Comfortable "
+        },
+        {
+          "rid": "2",
+          "rstar": "4",
+          "review": " Very nice products in such range price thanks supershop for This lovey product .As I expected it is so nice"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Women's Running Shoes",
+      "price": 999,
+      "discountedprice": 800,
+      "category": "Shoes",
+      "description": "Sole: Ethylene Vinyl Acetate Closure: Lace-Up Fit Type: Regular Shoe Width: Medium",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/61vdsBLRceL._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/61UqJPaOlrL._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/61pbu8XGKBL._UY695_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/615EN9imOCL._UY695_.jpg"
+      },
+      "size": "6",
+      "gender": "Female",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "3.5",
+          "review": "Comfortable & light weight "
+        },
+        {
+          "rid": "2",
+          "rstar": "3.5",
+          "review": "I had a terrible experience with the shoe bite on my both toes."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "White Casual Sports Shoes",
+      "price": 1700,
+      "discountedprice": 1200,
+      "category": "Shoes",
+      "description": "Sole: Faux Leather Closure: Lace-Up Fit Type: Regular Shoe Width: Medium Lifestyle: Casual Wear; Sole Material: Airmax (Lightweight) Outer Material: Faux Leather",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/61XrCE4oLLS._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/61cUVKygdqS._UY695_.jpg ",
+        "img3": "https://m.media-amazon.com/images/I/61bV9iy3KkS._UY695_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/71I03k9s3TS._UY695_.jpg"
+      },
+      "size": "6",
+      "gender": "Female",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "3.5",
+          "review": "Comfortable & light weight "
+        },
+        {
+          "rid": "2",
+          "rstar": "3.5",
+          "review": "I had a terrible experience with the shoe bite on my both toes."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Leather Wallet for Men",
+      "price": 2000,
+      "discountedprice": 479,
+      "category": "Accessories",
+      "description": "COMPACT, SLEEK AND SPACIOUS MEN’S WALLET LEATHER - Unique Design and Compact Size, this Wallet is not at all Bulky. The size is just Perfect to fit in your Pocket with Easer",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/91ltRiWoovL._SY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/A1Ge+QwrYIL._SX679_.jpg ",
+        "img3": "https://m.media-amazon.com/images/I/81OP9CWE6jL._SX679_.jpg"
+      },
+      "gender": "Male",
+      "ratings": "4.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4.5",
+          "review": "The design is simple and as per my choice. Quality of the product is really good "
+        },
+        {
+          "rid": "2",
+          "rstar": "2",
+          "review": "Coin compartment got torn in a month"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Green Men's Wallet ",
+      "price": 1499,
+      "discountedprice": 459,
+      "category": "Accessories",
+      "description": "11.5 x 9.5 x 1.5 cm , weight : 200 g , INGENIOUS DESIGN – Keep all your essentials neat and organized in this exclusive stylish wallet.",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/81WUpC+DFPL._SX679_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/81sNm8eyNpL._SX679_.jpg ",
+        "img3": "https://m.media-amazon.com/images/I/91jIqAxa+SL._SX679_.jpg"
+      },
+      "gender": "Male",
+      "ratings": "5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "5",
+          "review": "Best wallet after 6 month use good quality 👍"
+        },
+        {
+          "rid": "2",
+          "rstar": "2",
+          "review": "Product’s quality is very bad and low quality cotton used in this product inside. Totally waste of money"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Women's Leather bag",
+      "price": 4795,
+      "discountedprice": 2500,
+      "category": "Accessories",
+      "description": "Matte faux leather utility phone bag. One main compartment Non adjustable shoulder faux leather strap",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/71kmv2ztwLL._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/714-3BRv-1L._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/61q9eZmVkqL._UY695_.jpg"
+      },
+      "gender": "Female",
+      "ratings": "3.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4.5",
+          "review": "Best wallet after 6 month use good quality 👍"
+        },
+        {
+          "rid": "2",
+          "rstar": "2",
+          "review": "Product’s quality is very bad and low quality cotton used in this product inside. Totally waste of money"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Ladies Sling Bags Purse",
+      "price": 2399,
+      "discountedprice": 530,
+      "category": "Accessories",
+      "description": "Detailed with high quality Classic tone hardware, zippers, bottom studs. Rolled leather top handles are very comfortable for carrying which are specially strengthened by durable metal decoration.",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/516WdP5i1NL._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/51tVIDWOIIL._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/61Jm9KuxQ3L._UY695_.jpg"
+      },
+      "gender": "Female",
+      "ratings": "4.5",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "3.5",
+          "review": "First look quality is excellent. But the colours are not matching the picture "
+        },
+        {
+          "rid": "2",
+          "rstar": "5",
+          "review": "The design is trendy, affordable and stylish, worth the money. However there is very little space inside to you can't keep a lot of things."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Women's Printed Kurta",
+      "price": 1350,
+      "discountedprice": 1099,
+      "category": "Kurta",
+      "description": "Care Instructions: Machine Wash Fit Type: Regular Fabric: 100% Cotton Kurta Length: Calf Length Style: Straight",
+      "image": {
+        "img1": "https://m.media-amazon.com/images/I/81jgawQiCWL._UX679_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/81Qkfsg5T+L._UX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/81Xel+Yt2YL._UX679_.jpg"
+      },
+      "size": "M",
+      "gender": "Female",
+      "ratings": "4",
+      "review": [
+        {
+          "rid": "1",
+          "rstar": "4",
+          "review": "I like the design and also it is soft and comfy ..."
+        },
+        {
+          "rid": "2",
+          "rstar": "2",
+          "review": "Cloth quality is very bad"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "Other",
+      "date": "2022-12-10",
+      "description": "test desc.",
+      "occupation": "Unemployed",
+      "education12": "12 ",
+      "educationdegree": "15 ",
+      "tandc": true,
+      "intrests": [
+        "coding",
+        "sleeping"
+      ],
+      "id": 1
+    },
+    {
+      "name": "dhanuj",
+      "email": "dhanuj@gmail.com",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "Male",
+      "date": "2022-12-14",
+      "description": "test description to check how long will it allow in this text area seems like a Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis, tenetur dolor dignissimos veniam iste similique doloremque explicabo voluptatibus veritatis officiis quod hic dicta quibusdam ex saepe asperiores nulla assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis, tenetur dolor dignissimos veniam iste similique doloremque explicabo voluptatibus veritatis officiis quod hic dicta quibusdam ex saepe asperiores nulla assumenda!Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis, tenetur dolor dignissimos veniam iste similique doloremque explicabo voluptatibus veritatis officiis quod hic dicta quibusdam ex saepe asperiores nulla assumenda!Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis, tenetur dolor dignissimos veniam iste similique doloremque explicabo voluptatibus veritatis officiis quod hic dicta quibusdam ex saepe asperiores nulla assumenda! ",
+      "occupation": "Unemployed",
+      "education12": "12",
+      "educationdegree": "15",
+      "tandc": true,
+      "intrests": [
+        "coding",
+        "gaming"
+      ],
+      "id": 2
+    },
+    {
+      "name": "test3",
+      "email": "test3@gmail.com",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "gender": "Male",
+      "date": "2022-12-15",
+      "description": "fsdfsdfdsf",
+      "occupation": "Employed",
+      "education12": "12",
+      "educationdegree": "15",
+      "tandc": true,
+      "intrests": [
+        "testing"
+      ],
+      "id": 3
+    }
+  ]
+}
